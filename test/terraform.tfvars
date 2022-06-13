@@ -24,21 +24,3 @@ test_iam_users = {
         }
     }
 }
-# gp = {
-#     0 = {
-#       tags={
-#         "Name"= "Hardeep Kaur"
-#         "Purpose"= "Demo"
-#         "Owner" = "hardeep.kaur@cloudeq.com"
-#       }
-#     }
-# }
-# test_iam_users = {
-#   "hk1" = {
-#     tags={
-#         "Name"= "Hardeep Kaur"
-#         "Purpose"= "Demo"
-#         "Owner" = "hardeep.kaur@cloudeq.com"
-#     }
-#   }
-# }
