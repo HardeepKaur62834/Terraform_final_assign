@@ -19,6 +19,6 @@ resource "aws_iam_user" "user" {
 # add users to a group :
 resource "aws_iam_group_membership" "administrators-users" {
     name = "tf-testing-group-membership"
-    users = [aws_iam_user.user.name,]
+    users = [aws_iam_user.user.name]
     group =  aws_iam_group.administrators[0].name
 }
