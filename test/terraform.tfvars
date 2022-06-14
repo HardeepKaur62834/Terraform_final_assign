@@ -9,14 +9,14 @@ test_iam_users = {
             "Owner" = "hardeep.kaur@cloudeq.com"
         }
       }  
-    "hk-admin2" ={
+  "hk-admin2" ={
       "tags" = {
             "Name"= "Hardeep Kaur"
             "Purpose"= "Demo"
             "Owner" = "hardeep.kaur@cloudeq.com"
         }
     }
-    "hk-admin3" ={
+  "hk-admin3" ={
         "tags" = {
             "Name"= "Hardeep Kaur"
             "Purpose"= "Demo"
@@ -24,3 +24,13 @@ test_iam_users = {
         }
     }
 }
+# test_tags ={
+#   0 = {
+#     tags = {
+#       "Name"= "Hardeep Kaur"
+#       "Purpose"= "Demo"
+#       "Owner" = "hardeep.kaur@cloudeq.com"
+#     }
+#   }
+# }
+# test_iam_users =["hk1","hk2","hk3"]
