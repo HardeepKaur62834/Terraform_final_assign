@@ -1,4 +1,3 @@
-
 variable "test_iam_group_name"{
     type = string
 }

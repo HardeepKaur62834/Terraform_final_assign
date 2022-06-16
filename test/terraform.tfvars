@@ -1,36 +1,26 @@
 test_iam_group_name = "hk-administrative-group"
 test_policy_arn = "arn:aws:iam::aws:policy/AdministratorAccess"
 test_group_name_bool = true
+       
 test_iam_users = {
-  "hk-admin1" ={
-    "tags" = {
-            "Name"= "Hardeep Kaur"
-            "Purpose"= "Demo"
-            "Owner" = "hardeep.kaur@cloudeq.com"
-        }
-      }  
-  "hk-admin2" ={
-      "tags" = {
-            "Name"= "Hardeep Kaur"
-            "Purpose"= "Demo"
-            "Owner" = "hardeep.kaur@cloudeq.com"
-        }
-    }
-  "hk-admin3" ={
-        "tags" = {
-            "Name"= "Hardeep Kaur"
-            "Purpose"= "Demo"
-            "Owner" = "hardeep.kaur@cloudeq.com"
+    "0"={
+        user={"hk-admin1"={
+                Name = "Hardeep Kaur"
+                Owner = "hardeep.kaur@cloudeq.com"
+                Purpose = "Terraform Assignment"
+            },
+        
+        "hk-admin2"={
+                Name = "Hardeep Kaur"
+                Owner = "hardeep.kaur@cloudeq.com"
+                Purpose = "Terraform Assignment"
+            },
+        
+        "hk-admin3"={
+                Name = "Hardeep Kaur"
+                Owner = "hardeep.kaur@cloudeq.com"
+                Purpose = "Terraform Assignment"
+            }
         }
     }
 }
-# test_tags ={
-#   0 = {
-#     tags = {
-#       "Name"= "Hardeep Kaur"
-#       "Purpose"= "Demo"
-#       "Owner" = "hardeep.kaur@cloudeq.com"
-#     }
-#   }
-# }
-# test_iam_users =["hk1","hk2","hk3"]
